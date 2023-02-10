@@ -1,0 +1,11 @@
+div {
+    height: 2rem;
+    width: 40vw;
+    position: sticky;
+    top: 20px;
+    left: 30%;
+    border-radius: 10px;
+    border: black 2px solid;
+    margin-bottom: 10px;
+
+}

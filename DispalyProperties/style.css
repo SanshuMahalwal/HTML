@@ -1,0 +1,25 @@
+div {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+div:nth-of-type(1) {
+    border: 3px solid black;
+    background-color: lightblue;
+}
+div:nth-of-type(2) {
+    border: 3px solid black;
+    background-color: lightcoral;
+}
+div:nth-of-type(3) {
+    border: 3px solid black;
+    background-color: lightgreen;
+}
+span{
+    border: black 3px solid;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}

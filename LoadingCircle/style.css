@@ -1,0 +1,26 @@
+section {
+    border-top: 20px solid white;
+    border-right: 20px solid rgb(196, 195, 195);
+    border-bottom: 20px solid rgb(140, 141, 141);
+    border-left: 20px solid rgb(52, 52, 52) ;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation-name: loader;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes loader {
+    100% {
+        transform: rotateZ(1turn);
+    }
+}

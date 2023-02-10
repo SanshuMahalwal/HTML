@@ -1,0 +1,27 @@
+section {
+    border: lightgray solid 3px;
+    width: 40%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+section div {
+    background-color: rgb(240, 180, 91);
+    border-radius: 15px;
+    position: sticky;
+    top: 0;
+}
+section div h2 {
+  position: relative;
+  left: 220px;
+
+}
+section p {
+    /* background-color: rgb(203, 222, 238); */
+    padding: 2px;
+    border-radius: 10px;
+    font: caption;
+    position: relative;
+    border-bottom: 1px solid lightgrey;
+    
+}
